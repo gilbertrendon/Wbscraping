@@ -1,0 +1,86 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: #{service}#
+  namespace: #{namespace}#
+  labels:
+    app.bancolombia.com.co/env: "#{env}#"
+    app.bancolombia.com.co/cost-center: "#{cost-center}#"
+    app.bancolombia.com.co/application-code: "#{application-code}#"
+    app.bancolombia.com.co/project: "#{project-name}#"
+    app.bancolombia.com.co/pmo: "#{pmo}#"
+spec:
+  selector:
+    app: #{project-name}#
+    pod: #{service}#-pod
+  ports:
+    - name: http
+      targetPort: #{container-port}#
+      port: 80
+---
+### Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: #{service}#-deployment
+  namespace: #{namespace}#
+  labels:
+    app.bancolombia.com.co/env: "#{env}#"
+    app.bancolombia.com.co/cost-center: "#{cost-center}#"
+    app.bancolombia.com.co/application-code: "#{application-code}#"
+    app.bancolombia.com.co/project: "#{project-name}#"
+    app.bancolombia.com.co/pmo: "#{pmo}#"
+spec:
+  replicas: #{replicas}#
+  selector:
+    matchLabels:
+      pod: #{service}#-pod
+  template:
+    metadata:
+      labels:
+        app: #{project-name}#
+        pod: #{service}#-pod
+        app.bancolombia.com.co/project: #{project-name}#
+        version: #{version}#
+    spec:
+      securityContext:
+        fsGroup: 65534
+      serviceAccountName: #{service-account-name}#
+      containers:
+        - name: #{service}#-container
+          image: #{image}#
+          resources:
+            requests:
+              memory: "#{memory-request}#Mi"
+              cpu: "#{cpu-request}#m"
+            limits:
+              memory: "#{memory-limits}#Mi"
+              cpu: "#{cpu-limits}#m"
+          ports:
+            - containerPort: #{container-port}#
+
+---
+### Autoscaling
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: #{service}#-hpa
+  namespace: #{namespace}#
+  labels:
+    app.bancolombia.com.co/env: "#{env}#"
+    app.bancolombia.com.co/cost-center: "#{cost-center}#"
+    app.bancolombia.com.co/application-code: "#{application-code}#"
+    app.bancolombia.com.co/project-name: "#{project-name}#"
+    app.bancolombia.com.co/pmo: "#{pmo}#"
+spec:
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: #{service}#-deployment
+  minReplicas: #{replicas}# 
+  maxReplicas: #{max-replicas}# 
+  targetCPUUtilizationPercentage: #{targetCPU}#
+status:
+  currentReplicas: #{replicas}#
+  desiredReplicas: #{replicas}#
+

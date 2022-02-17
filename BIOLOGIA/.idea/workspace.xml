@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82aba629-8e3f-4840-8ff1-a7fc4d18e5ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf/cmd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externalSources/projects/ruaf/libraries/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/externalSources/projects/ruaf/libraries/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf/scrapyRuaf/spiders/ruaf.py" beforeDir="false" afterPath="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf/scrapyRuaf/spiders/ruaf.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1e9U6FgSmReZ5gql92UqUtzTKHN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BANCOLOMBIA\Fuentes externas\NU0030001_FuentesExternas_Core\RUAF\externalSources\projects\ruaf\scrapyRuaf" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Scripts" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="RUAF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Scripts" />
+      <option name="PARAMETERS" value="scrapyrt scrapyrt -p 8080" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="RUAF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf/scrapyRuaf" />
+      <option name="PARAMETERS" value="scrapyrt -p 8080" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ShConfigurationType">
+      <option name="SCRIPT_PATH" value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Scripts" />
+      <option name="SCRIPT_OPTIONS" value="scrapyrt -p 8080" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82aba629-8e3f-4840-8ff1-a7fc4d18e5ab" name="Default Changelist" comment="" />
+      <created>1593733125248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593733125248</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="153" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593782629011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="153" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593782629011" />
+    <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1593782572204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1593782572204" />
+    <state x="417" y="128" key="EnvironmentVariablesDialog" timestamp="1593733578889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="417" y="128" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593733578889" />
+    <state x="539" y="178" key="FileChooserDialogImpl" timestamp="1593782468995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="539" y="178" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593782468995" />
+    <state width="1328" height="167" key="GridCell.Tab.0.bottom" timestamp="1593788659005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593788659005" />
+    <state width="1328" height="167" key="GridCell.Tab.0.center" timestamp="1593788659005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593788659005" />
+    <state width="1328" height="167" key="GridCell.Tab.0.left" timestamp="1593788659005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593788659005" />
+    <state width="1328" height="167" key="GridCell.Tab.0.right" timestamp="1593788659005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593788659005" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1593733712468">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593733712468" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1593733129734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593733129734" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/externalSources/projects/ruaf/scrapyRuaf/scrapyRuaf/spiders/ruaf.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

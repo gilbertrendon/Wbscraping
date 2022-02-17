@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Las siguientes paquetes solo aplican para las actividades de desarrollo maquina local
+pytest==6.2.5
+coverage==6.0.
